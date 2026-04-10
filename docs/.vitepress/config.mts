@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '使用说明', link: '/guide/initial-overview' },
-      { text: '部署', link: '/deploy/site-deployment' },
+      { text: '部署', link: '/deploy/docker' },
       {
         text: '云酒馆导航',
         link: 'https://www.991314.xyz',
@@ -35,7 +35,6 @@ export default defineConfig({
         {
           text: '部署',
           items: [
-            { text: '本站部署', link: '/deploy/site-deployment' },
             { text: 'Docker 部署', link: '/deploy/docker' }
           ]
         }
